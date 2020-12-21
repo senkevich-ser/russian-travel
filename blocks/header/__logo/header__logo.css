@@ -12,7 +12,7 @@
 @media (max-width: 1024px) {
   .header__logo {
     margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
-    
+  }
 }
 @media (max-width: 768px) {
   .header__logo {
