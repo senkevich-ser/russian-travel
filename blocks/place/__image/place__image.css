@@ -1,0 +1,33 @@
+.place__image {
+  width: 460px;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 32px;
+  margin-left: 148px;
+}
+@media (max-width: 1280px) {
+  .place__image {
+    width: calc(440px + (460 - 440) * ((100vw - 1024px) / (1280 - 1024)));
+    margin-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
+    }
+@media (max-width: 1024px) {
+  .place__image {
+        width: calc(340px + (440 - 340) * ((100vw - 768px) / (1024 - 768)));
+        margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
+  }
+}
+@media (max-width: 768px) {
+  .place__image {
+      width: calc(320px + (340 - 320) * ((100vw - 740px) / (768 - 320)));
+      margin-left: calc(0px + (24 - 0) * ((100vw - 320px) / (768 - 320)));
+    
+    
+  }
+}
+@media (max-width: 740px) {
+  .place__image {
+    width: calc(320px + (708 - 320) * ((100vw - 320px) / (740 - 320)));
+    margin-right: calc(0px + (24 - 0) * ((100vw - 320px) / (768 - 320)));
+    
+  }
+}

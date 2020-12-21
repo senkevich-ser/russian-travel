@@ -1,0 +1,15 @@
+.lead{
+  display: flex;
+  flex-direction: column;
+  background-color: #2A2C2F;
+  margin: 0;
+  padding-top: 56px;
+  color: #ffffff;
+
+}
+@media (max-width: 1024px) {
+  .lead{
+    padding-top: calc(48px + (56 - 48) * ((100vw - 768px)/(1024 - 768)));
+  } 
+ }
+ 

@@ -1,0 +1,8 @@
+.intro {
+  background-color: #2a2c2f;
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  padding: 0;
+  padding-top: 92px;
+}
