@@ -3,7 +3,7 @@
   font-size: 10px;
   font-weight: 400;
   padding: 0;
-  color: #ffffff;
+  color: #FFFFFF;
   margin-top: 8px;
   margin-left: 148px;
 }
@@ -11,15 +11,12 @@
   .lead__caption {
     margin-left: calc(48px + (148 - 48) * ((100vw - 1024px) / (1280 - 1024)));
   }
-}
 
-@media (max-width: 1024px) {
+ @media (max-width: 1024px) {
   .lead__caption {
     margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
-  }
-}
+  } 
 @media (max-width: 768px) {
   .lead__caption {
     margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
-  }
-}
+  } 

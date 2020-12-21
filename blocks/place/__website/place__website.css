@@ -1,4 +1,4 @@
-.place__website {
+.place__website{
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -10,4 +10,3 @@
   .place__website {
     display: none;
   }
-}

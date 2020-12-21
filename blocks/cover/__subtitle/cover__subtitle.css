@@ -8,13 +8,17 @@
   margin: 0;
   padding: 0;
   z-index: 1;
-  margin-bottom: -19%;
+  margin-bottom: -19% ;
+  
+  
 }
 
-@media (max-width: 768px) {
-  .cover__subtitle {
-    font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (768 - 320)));
-    line-height: calc(16px + (22 - 16) * ((100vw - 320px) / (768 - 320)));
-    width: calc(288px + (360 - 288) * ((100vw - 320px) / (768 - 320)));
+  @media (max-width: 768px) {
+    .cover__subtitle {
+      font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (768 - 320)));
+      line-height: calc(16px + (22 - 16) * ((100vw - 320px) / (768 - 320)));
+      width: calc(288px + (360 - 288) * ((100vw - 320px) / (768 - 320)));
+      
+    }
   }
 }

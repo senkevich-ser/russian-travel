@@ -31,9 +31,11 @@
   }
 }
 @media (max-width: 740px) {
-  .place__title {
-    margin-right: 0;
-    margin-left: 0;
-    text-align: center;
+    .place__title {
+      margin-right:0;
+      margin-left: 0;
+      text-align: center;
+      
+    }
   }
 }
