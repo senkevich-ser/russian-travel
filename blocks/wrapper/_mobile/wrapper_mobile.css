@@ -1,9 +1,9 @@
 .wrapper_mobile {
-   padding: 0;
+  padding: 0;
 }
 @media (max-width: 420px) {
   .wrapper_mobile {
-    padding-left: 16px ;
+    padding-left: 16px;
     padding-right: 16px;
   }
 }

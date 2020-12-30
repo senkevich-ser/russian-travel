@@ -9,7 +9,8 @@
 
 @media (max-width: 690px) {
   .footer__copyright {
-   flex-direction: column;
-   text-align: left;
-   margin-top: 48px;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 48px;
+  }
 }
