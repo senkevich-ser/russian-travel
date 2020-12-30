@@ -17,12 +17,14 @@
    padding-right: 48px;
  }
 }
+
 @media (max-width: 890px) {
   .wrapper__lead_elements_image {
    padding-left: 24px;
    padding-right: 24px;
  }
 }
+
 @media (max-width: 768px) {
   .wrapper__lead_elements_image {
    padding: 0;
