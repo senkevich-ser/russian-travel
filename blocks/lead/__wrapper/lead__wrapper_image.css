@@ -1,31 +1,31 @@
-.wrapper__lead_elements_image{
+.lead__wrapper_image{
  padding-left:148px;
  padding-right: 148px; 
  }
 
 @media (max-width: 1100px) {
-  .wrapper__lead_elements_image {
+  .lead__wrapper_image {
    padding-left: 98px;
    padding-right: 98px;
  }
 }
 
 @media (max-width: 1024px) {
-  .wrapper__lead_elements_image {
+  .lead__wrapper_image {
    padding-left: 48px;
    padding-right: 48px;
  }
 }
 
 @media (max-width: 890px) {
-  .wrapper__lead_elements_image {
+  .lead__wrapper_image {
    padding-left: 24px;
    padding-right: 24px;
  }
 }
 
 @media (max-width: 768px) {
-  .wrapper__lead_elements_image {
+  .lead__wrapper_image {
    padding: 0;
  }
 }

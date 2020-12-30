@@ -4,9 +4,6 @@
 @import url(../blocks/opacity/opacity.css);
 @import url(../blocks/wrapper/wrapper.css);
 @import url(../blocks/wrapper/_mobile/wrapper_mobile.css);
-@import url(../blocks/wrapper/__lead/_elements/wrapper__lead_elements_image.css);
-@import url(../blocks/wrapper/__lead/_elements/wrapper__lead_elements_caption.css);
-@import url(../blocks/wrapper/__lead/_elements/wrapper__lead_elements_titles.css);
 @import url(../blocks/wrapper/__footer/wrapper__footer.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
@@ -19,6 +16,9 @@
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__wrapper/lead__wrapper_caption.css);
+@import url(../blocks/lead/__wrapper/lead__wrapper_image.css);
+@import url(../blocks/lead/__wrapper/lead__wrapper_titles.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
