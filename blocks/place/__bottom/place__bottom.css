@@ -1,0 +1,29 @@
+.place__bottom {
+  display: -ms-grid;
+  display: grid;
+  color: #ffffff;
+  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+  gap: 40px;
+  background-color: #2a2c2f;
+  max-width: 984px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media (max-width: 1024px) {
+  .place__bottom {
+    gap: 32px;
+  }
+}
+@media (max-width: 768px) {
+  .place__bottom {
+    gap: 28px;
+  }
+}
+@media (max-width: 420px) {
+  .place__bottom {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

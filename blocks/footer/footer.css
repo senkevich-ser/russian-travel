@@ -6,11 +6,21 @@
   align-items: center;
   justify-content: space-between;
   padding-top: 92px;
+  padding-left: 48px;
+  padding-right: 48px;
 }
-
-@media (max-width: 768px) {
+@media (max-width: 690px) {
   .footer {
     flex-direction: column;
+    justify-content: flex-start;
     align-items: flex-start;
+    padding-left: 24px;
+  padding-right: 24px;
+  }
+}
+@media (max-width: 420px) {
+  .footer {
+    padding-left: 16px ;
+    padding-right: 16px;
   }
 }

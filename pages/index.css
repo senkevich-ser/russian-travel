@@ -1,6 +1,14 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
 @import url(../blocks/root/root.css);
 @import url(../blocks/opacity/opacity.css);
+@import url(../blocks/wrapper/wrapper.css);
+@import url(../blocks/wrapper/_mobile/wrapper_mobile.css);
+@import url(../blocks/wrapper/__lead/_elements/wrapper__lead_elements_image.css);
+@import url(../blocks/wrapper/__lead/_elements/wrapper__lead_elements_caption.css);
+@import url(../blocks/wrapper/__lead/_elements/wrapper__lead_elements_titles.css);
+@import url(../blocks/wrapper/__intro/wrapper__intro.css);
+@import url(../blocks/wrapper/__footer/wrapper__footer.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
@@ -21,9 +29,11 @@
 @import url(../blocks/foto-grid/__items/foto-grid__items.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
+@import url(../blocks/place/__top/place__top.css);
+@import url(../blocks/place/__bottom/place__bottom.css);
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
-@import url(../blocks/place/__paragraph/_position/place__paragraph_position_first.css);
+@import url(../blocks/place/__paragraph/_position/place__paragraph_position_up.css);
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__website/place__website.css);
 @import url(../blocks/place/__website/_url/place__website_url_heading.css);
@@ -32,7 +42,7 @@
 @import url(../blocks/cover/__image/cover__image.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
-@import url(../blocks/cover/_overlay/cover_overlay.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__link/footer__link.css);

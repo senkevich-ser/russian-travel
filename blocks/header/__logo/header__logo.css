@@ -4,21 +4,13 @@
   height: 52px;
   margin: 0;
   margin-top: 28px;
-  margin-left: 48px;
   background-size: cover;
   background-position: center;
 }
 
-@media (max-width: 1024px) {
+ @media (max-width: 425px) {
   .header__logo {
-    margin-left: calc(24px + (48 - 24) * ((100vw - 768px) / (1024 - 768)));
-  }
-}
-@media (max-width: 768px) {
-  .header__logo {
-    width: calc(142px + (176 - 142) * ((100vw - 320px) / (768 - 320)));
-    height: calc(42px + (52 - 42) * ((100vw - 320px) / (768 - 320)));
-    margin-top: calc(16px + (28 - 16) * ((100vw - 320px) / (768 - 320)));
-    margin-left: calc(16px + (24 - 16) * ((100vw - 320px) / (768 - 320)));
+  width: 142px;
+  height: 42px;
   }
 }

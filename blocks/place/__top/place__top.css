@@ -1,0 +1,22 @@
+.place__top {
+  display: -ms-grid;
+  display: grid;
+  color: #ffffff;
+  grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+  gap: 40px;
+  background-color: #2a2c2f;
+  max-width: 984px;
+  padding-top: 80px;
+}
+
+@media (max-width: 1024px) {
+  .place__top {
+    gap: 32px;
+  }
+}
+@media (max-width: 768px) {
+  .place__top {
+    gap: 28px;
+    padding-top: 64px;
+  }
+}
