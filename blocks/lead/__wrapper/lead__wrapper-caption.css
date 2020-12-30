@@ -1,19 +1,19 @@
-.lead__wrapper_caption {
+.lead__wrapper-caption {
   padding-left: 148px;
 }
 @media (max-width: 1100px) {
-  .lead__wrapper_caption {
+  .lead__wrapper-caption {
     padding-left: 98px;
   }
 }
 
 @media (max-width: 1024px) {
-  .lead__wrapper_caption {
+  .lead__wrapper-caption {
     padding-left: 48px;
   }
 }
 @media (max-width: 890px) {
-  .lead__wrapper_caption {
+  .lead__wrapper-caption {
     padding-left: 24px;
   }
 }
