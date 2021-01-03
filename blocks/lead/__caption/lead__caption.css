@@ -2,7 +2,19 @@
   line-height: 14px;
   font-size: 10px;
   font-weight: 400;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
   padding: 0;
   color: #ffffff;
   margin-top: 8px;
+}
+@media (max-width: 768px) {
+  .lead__caption {
+    padding-left: 24px;
+  }
+}
+@media (max-width: 425px) {
+  .lead__caption {
+   padding-left: 16px;
+   }
 }

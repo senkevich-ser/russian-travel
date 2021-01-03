@@ -1,9 +1,0 @@
-.foto-grid__items {
-  display: -ms-grid;
-  display: grid;
-  background-color: #2a2c2f;
-  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  grid-auto-rows: minmax(225px, auto);
-  gap: 16px;
-  width: 100%;
-}

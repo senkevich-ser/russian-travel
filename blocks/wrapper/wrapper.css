@@ -18,6 +18,12 @@
            box-sizing: border-box;
    background-color: #2a2c2f;
 }
+@media (max-width: 1120px) {
+  .wrapper {
+   padding-left: 88px;
+   padding-right: 88px;
+  }
+}
 @media (max-width: 1024px) {
   .wrapper {
    padding-left: 48px;

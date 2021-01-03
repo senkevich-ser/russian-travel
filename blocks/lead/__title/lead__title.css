@@ -11,18 +11,18 @@
 @media (max-width: 680px) {
   .lead__title {
     line-height: 72px;
-   font-size: 68px;
+    font-size: 68px;
   }
 }
 @media (max-width: 520px) {
   .lead__title {
     line-height: 58px;
-   font-size: 54px;
+    font-size: 54px;
   }
 }
 @media (max-width: 430px) {
   .lead__title {
     line-height: 44px;
-   font-size: 40px;
+    font-size: 40px;
   }
 }

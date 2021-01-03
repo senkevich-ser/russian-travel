@@ -8,13 +8,20 @@
   margin-bottom: 48px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 895px) {
   .place__title {
-    line-height: 72px;
-    font-size: 68px;
+    line-height: 56px;
+    font-size: 52px;
   }
 }
-@media (max-width: 752px) {
+@media (max-width: 768px) {
+  .place__title {
+    line-height: 46px;
+    font-size: 42px;
+    max-width: 320px;
+  }
+}
+@media (max-width: 663px) {
   .place__title {
     line-height: 64px;
     font-size: 60px;

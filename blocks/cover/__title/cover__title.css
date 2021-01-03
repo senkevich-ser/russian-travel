@@ -36,6 +36,13 @@
     line-height: 71px;
   }
 }
+@media (max-width: 472px) {
+  .cover__title {
+    margin-top: 64px;
+    font-size: 57px;
+    line-height: 71px;
+  }
+}
 @media (max-width: 425px) {
   .cover__title {
     margin-top: 33px;
@@ -43,11 +50,10 @@
     line-height: 57px;
   }
 }
-@media (max-width: 340px) {
+@media (max-width: 366px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-    padding-left: 50px;
-    padding-right: 50px;
+    max-width: 266px;
   }
 }

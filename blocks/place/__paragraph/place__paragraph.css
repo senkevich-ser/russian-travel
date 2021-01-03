@@ -7,6 +7,13 @@
   margin: 0;
   max-width: 484px;
 }
+@media (max-width: 767px) {
+  .place__paragraph {
+    line-height: 26.08px;
+    font-size: 16px;
+  }
+}
+
 @media (max-width: 420px) {
   .place__paragraph {
     padding-left: 16px;

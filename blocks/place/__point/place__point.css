@@ -1,4 +1,4 @@
-.place__bottom {
+.place__point {
   display: -ms-grid;
   display: grid;
   color: #ffffff;
@@ -6,24 +6,17 @@
   gap: 40px;
   background-color: #2a2c2f;
   max-width: 984px;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  padding-top: 80px;
 }
 
 @media (max-width: 1024px) {
-  .place__bottom {
+  .place__point {
     gap: 32px;
   }
 }
 @media (max-width: 768px) {
-  .place__bottom {
+  .place__point {
     gap: 28px;
-  }
-}
-@media (max-width: 420px) {
-  .place__bottom {
-    padding-left: 0;
-    padding-right: 0;
+    padding-top: 64px;
   }
 }

@@ -1,6 +1,23 @@
 .header {
   display: flex;
   background-color: #2a2c2f;
-  margin: 0;
-  padding: 0;
+  max-width: 1280px;
+  min-width: 320px;
+  padding-left: 48px;
+  padding-right: 48px;
+}
+
+
+@media (max-width: 768px) {
+  .header {
+   padding-left: 24px;
+   padding-right: 24px;
+}
+   }
+
+@media (max-width: 425px) {
+  .header {
+   padding-left: 16px;
+   padding-right: 16px;
+}
 }

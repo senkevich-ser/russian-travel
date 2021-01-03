@@ -35,8 +35,7 @@
     margin-top: 24px;
     line-height: 16px;
     font-size: 14px;
-    padding-left: 20px;
-    padding-right: 20px;
+    max-width: 340px;
   }
 }
 @media (max-width: 320px) {
