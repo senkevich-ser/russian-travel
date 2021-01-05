@@ -40,14 +40,14 @@
   .cover__title {
     margin-top: 64px;
     font-size: 57px;
-    line-height: 71px;
+    line-height: 61px;
   }
 }
 @media (max-width: 425px) {
   .cover__title {
     margin-top: 33px;
     font-size: 52px;
-    line-height: 57px;
+    line-height: 56px;
   }
 }
 @media (max-width: 366px) {

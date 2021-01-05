@@ -1,3 +1,6 @@
-.header__link-wrapper:first-of-type {
+.header__link-wrapper {
   margin-right: 18px;
+}
+.header__link-wrapper:last-of-type {
+  margin-right: 0;
 }

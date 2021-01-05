@@ -38,5 +38,13 @@
   .place__title {
     line-height: 44px;
     font-size: 40px;
+    max-width: 288px;
+  }
+}
+@media (max-width: 380px) {
+  .place__title {
+    line-height: 35px;
+    font-size: 32px;
+    max-width: 230px;
   }
 }

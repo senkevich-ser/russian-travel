@@ -2,5 +2,6 @@
   line-height: 22px;
   font-size: 18px;
   font-weight: 400;
-   color: #ffffff;
+  color: #ffffff;
+  align-self: flex-start;
 }
